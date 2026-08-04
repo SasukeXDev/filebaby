@@ -2040,15 +2040,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "group_info":
         buttons = [[
-            InlineKeyboardButton('× ᴀʟʟ ᴏᴜʀ ʟɪɴᴋꜱ ×', url="https://t.me/nova_flix")
+            InlineKeyboardButton('× ᴀʟʟ ᴏᴜʀ ʟɪɴᴋꜱ ×', url="https://t.me/Uchiha_Community/40")
        ],[
-            InlineKeyboardButton('• ɢʀᴏᴜᴘ •', url="t.me/movie7xchat"),
-            InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs •', url="t.me/codeflix_bots")
+            InlineKeyboardButton('• ɢʀᴏᴜᴘ •', url="t.me/+0NzTLUuKx_M3MTA1"),
+            InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs •', url="t.me/uchiha_developer")
        ],[
-            InlineKeyboardButton('• sᴇʀɪᴇsғʟɪx •', url="https://t.me/webseries_flix"),
-            InlineKeyboardButton('• ᴍᴏᴠɪᴇғʟɪx •', url="https://t.me/movieflixspot")
+            InlineKeyboardButton('• sᴇʀɪᴇsғʟɪx •', url="https://t.me/Movies_UC"),
+            InlineKeyboardButton('• ᴍᴏᴠɪᴇғʟɪx •', url="https://t.me/Movies_UC")
        ],[
-            InlineKeyboardButton('• ᴀɴɪᴍᴇ ᴄʀᴜɪsᴇ •', url="https://t.me/Anime_Cruise_Netflix")
+            InlineKeyboardButton('• ᴀɴɪᴍᴇ ᴄʀᴜɪsᴇ •', url="https://t.me/Toonami_India")
        ],[ 
             InlineKeyboardButton('• ʙᴀᴄᴋ •', callback_data='start')
         ]]
