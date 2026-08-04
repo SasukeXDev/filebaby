@@ -39,7 +39,7 @@ FSUB_PICS = (environ.get('FSUB_PICS', 'https://envs.sh/Wdj.jpg')).split()  # Fsu
 # Admin, Channels & Users Configuration
 # ============================
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()] # Replace with the actual admin ID(s) to add
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1003410895275 -1003438177508 -1002641891858').split()]  # Channel id for auto indexing (make sure bot is admin)
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1003410895275 -1003438177508 -1002641891858 -1004434745702 -1003425378735 -1003401911327 -1003318506524').split()]  # Channel id for auto indexing (make sure bot is admin)
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1003722434202'))  # Log channel id (make sure bot is admin)
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1003722434202'))  # Bin channel id (make sure bot is admin)
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1003931771369'))  # Notification of those who verify will be sent to your channel
@@ -47,7 +47,7 @@ PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1003722434202'))  # Premium log
 auth_channel = environ.get('AUTH_CHANNEL', '-1002756731076')  # Channel/Group ID for force sub (make sure bot is admin)
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '').split()]
 support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002695741353')  # Support group id (make sure bot is admin)
-reqst_channel = environ.get('REQST_CHANNEL_ID', '')  # Request channel id (make sure bot is admin)
+reqst_channel = environ.get('REQST_CHANNEL_ID', '-1003978646867')  # Request channel id (make sure bot is admin)
 AUTH_CHANNEL = [int(fch) if id_pattern.search(fch) else fch for fch in environ.get('AUTH_CHANNEL', '-1002756731076').split()]
 MULTI_FSUB = [int(channel_id) for channel_id in environ.get('MULTI_FSUB', '').split() if re.match(r'^-?\d+$', channel_id)]  # Channel for force sub (make sure bot is admin)
 
@@ -70,7 +70,7 @@ APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 DATABASE_URI = environ.get('DATABASE_URI', "")
 DATABASE_URI2 = environ.get('DATABASE_URI2', "")
 DATABASE_NAME = environ.get('DATABASE_NAME', "yato")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Lucy_files')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Komi_files')
 
 # ============================
 # Movie Notification & Update Settings
@@ -90,19 +90,19 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/hw2openlinks')  # How
 # ============================
 # Link Shortener Configuration
 # ============================
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'uchihalinks.gt.tc')
 SHORTLINK_API = environ.get('SHORTLINK_API', '51653a1b9ec4c0e61ca59288db199ccfd4d6c0e0')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/hw2openlinks')  # Tutorial video link for opening shortlink website
-IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
+IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 
 # ============================
 # Channel & Group Links Configuration
 # ============================
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+38tEmHOpH8w2ODll')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Uchiha_Community')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Uchiha_Hub')
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Tojma')
-MOVIE_UPDATE_CHANNEL_LNK = environ.get('MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/Uchiha_Community')
+MOVIE_UPDATE_CHANNEL_LNK = environ.get('MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/Movies_UC')
 OWNERID = int(os.environ.get('OWNERID', '6155357947'))  # Replace with the actual admin ID
 
 # ============================
